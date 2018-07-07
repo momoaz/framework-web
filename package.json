@@ -1,5 +1,5 @@
 {
-  "name": "framework",
+  "name": "nijaz",
   "version": "1.0.1",
   "description": "Librairie de composants web",
   "scripts": {
@@ -7,7 +7,6 @@
     "test": "karma start",
     "build": "rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail"
   },
-  "license": "MIT",
   "dependencies": {
     "@angular/animations": "6.0.7",
     "@angular/cdk": "6.3.1",
