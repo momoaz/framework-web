@@ -1,0 +1,19 @@
+.wb-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    &_image {
+        width: 128px;
+        height: 128px;       
+    }
+
+    &_title {
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+    &_content {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,7 @@
+<ng-container *ngIf="card">
+    <img *ngIf="card.img" src="{{card.img}}" class="wb-card_image" />
+    <h3 *ngIf="card.title" class="wb-card_title">{{card.title}}</h3>
+    <p *ngIf="card.content" class="wb-card_content">
+        {{card.content}}
+    </p>
+</ng-container>
