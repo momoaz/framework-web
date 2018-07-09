@@ -1,0 +1,1 @@
+export { NijazModule } from './nijaz.module';
